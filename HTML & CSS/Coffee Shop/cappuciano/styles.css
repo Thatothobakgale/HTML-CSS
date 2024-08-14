@@ -1,0 +1,40 @@
+.body{
+	background-image: url("th.JPEG");
+	background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.button{
+	display: flex;
+	
+	margin-left: 1090px;
+	text-decoration: none;
+	color: black;
+}
+.button:hover{
+	color: red;
+}
+.table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.image{
+	height: 340px;
+	width: 300px;
+}
+.row{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.row1{
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	margin: 34px;
+	border: 1px solid transparent;
+	width: 400px;
+	height: 400px;
+}

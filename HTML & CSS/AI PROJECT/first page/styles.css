@@ -1,0 +1,60 @@
+.body{
+	background-image: url("pic.JPEG");
+	font-size: 40px;
+	list-style: none;
+	background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+	
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.h1{
+	font-size: 76px;
+}
+
+.button{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	
+	margin-left: 220px;
+	width: 190px;
+	height: 55px;
+	text-decoration: none;
+    color: black;
+	border: solid 2px black;
+    border-radius: 9px; 
+}
+
+.button:hover{
+	color: red;
+}
+
+.password{
+	height: 30px;
+	width: 226px;
+	background-color: transparent;
+	border: solid 2px black;
+}
+
+.email{
+	height: 30px;
+	width: 226px;
+	background-color: transparent;
+	border: solid 2px black;
+}
+
+.label{
+	width: 240px;
+	display: inline-block;
+}
+
+.input{
+	height: 30px;
+	width: 226px;
+	background-color: transparent;
+	border: solid 2px black;
+}

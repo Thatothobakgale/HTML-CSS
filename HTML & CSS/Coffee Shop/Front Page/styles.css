@@ -1,0 +1,38 @@
+.body{
+	background-image: url("page.jpeg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.h2, image{
+	display: inline-block;
+	font-size: 45px;
+}
+.h, image{
+	display: inline-block;
+	font-size: 45px;
+	justify-content: center;
+	
+}
+.image{
+	height: 270px;
+	width: 240px;
+	margin-top: 190px;
+	transform: rotate(45deg);
+}
+.button{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 145px;
+	margin-left: 590px;
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+}
+.card{
+	margin: 34px;
+	border: 1px solid transparent;
+	width: 400px;
+	height: 400px;
+}

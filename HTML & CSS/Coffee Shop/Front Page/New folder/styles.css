@@ -1,0 +1,29 @@
+.slideshow{
+	position: relative;
+}
+.slideshow-img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: opacity 0.7s;
+	opacity: 0;
+}
+.slideshow img:first-child{
+	opacity: 1;
+}
+.slideshow img:nth-child(2){
+	animation: slideshow 7s infinite;
+	animation-delay: 7s;
+}
+.slideshow img:nth-child(3){
+	animation: slideshow 7s infinite;
+	animation-delay: 14s;
+}
+@keyframes slideshow{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1px;
+	}
+}
